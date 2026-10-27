@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://unified-ai-media-platform.onrender.com/api',
   timeout: 300000, // 5 minutes for long AI transcription tasks
 });
 
